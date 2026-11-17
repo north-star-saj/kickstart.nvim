@@ -737,7 +737,9 @@ do
     -- gopls = {},
     -- pyright = {},
     -- tsc = {},
-    --
+    -- python lsp configuration
+    basedpyright = {}, -- Handles autocomplete, type checking, and go-to-definition
+    ruff = {},         -- Handles ultra-fast linting and code formatting
     -- Some languages (like rust) have entire language plugins that can be useful:
     --    https://github.com/mrcjkb/rustaceanvim
     --
